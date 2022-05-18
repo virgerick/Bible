@@ -1,4 +1,4 @@
-﻿namespace Domain.Contracts;
+﻿namespace Bible.Domain.Contracts;
 
 public interface IEntityWithExtendedAttributes<TExtendedAttribute>
 {

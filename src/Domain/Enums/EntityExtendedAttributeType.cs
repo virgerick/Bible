@@ -1,4 +1,4 @@
-﻿namespace Domain.Enums;
+﻿namespace Bible.Domain.Enums;
 public enum EntityExtendedAttributeType : byte
 {
     Decimal = 1,

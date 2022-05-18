@@ -1,6 +1,6 @@
-﻿using Domain.Contracts;
+﻿using Bible.Domain.Contracts;
 
-namespace Domain.Entities.Catalog;
+namespace Bible.Domain.Entities.Catalog;
 public class Brand : AuditableEntity<int>
 {
     public string Name { get; set; }

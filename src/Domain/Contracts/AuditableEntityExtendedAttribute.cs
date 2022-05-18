@@ -1,6 +1,6 @@
-﻿using Domain.Enums;
+﻿using Bible.Domain.Enums;
 
-namespace Domain.Contracts;
+namespace Bible.Domain.Contracts;
 public abstract class AuditableEntityExtendedAttribute<TId, TEntityId, TEntity>
      : AuditableEntity<TId>, IEntityAuditableExtendedAttribute<TId, TEntityId, TEntity>
          where TEntity : IEntity<TEntityId>

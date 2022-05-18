@@ -1,6 +1,6 @@
-﻿using Domain.Enums;
+﻿using Bible.Domain.Enums;
 
-namespace Domain.Contracts;
+namespace Bible.Domain.Contracts;
 public interface IEntityExtendedAttribute<TId, TEntityId, TEntity>
         : IEntityExtendedAttribute<TEntityId, TEntity>, IEntity<TId>
             where TEntity : IEntity<TEntityId>

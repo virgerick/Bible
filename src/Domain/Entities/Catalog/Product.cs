@@ -1,8 +1,8 @@
-﻿using Domain.Contracts;
+﻿using Bible.Domain.Contracts;
 
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Domain.Entities.Catalog;
+namespace Bible.Domain.Entities.Catalog;
 public class Product : AuditableEntity<int>
 {
     public string Name { get; set; }

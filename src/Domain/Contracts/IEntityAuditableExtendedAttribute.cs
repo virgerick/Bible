@@ -1,4 +1,4 @@
-﻿namespace Domain.Contracts;
+﻿namespace Bible.Domain.Contracts;
 public interface IEntityAuditableExtendedAttribute<TId, TEntityId, TEntity>
       : IEntityExtendedAttribute<TId, TEntityId, TEntity>, IAuditableEntity<TId>
           where TEntity : IEntity<TEntityId>

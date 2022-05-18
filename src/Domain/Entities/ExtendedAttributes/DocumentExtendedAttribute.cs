@@ -1,7 +1,7 @@
-﻿using Domain.Contracts;
-using Domain.Entities.Misc;
+﻿using Bible.Domain.Contracts;
+using Bible.Domain.Entities.Misc;
 
-namespace Domain.Entities.ExtendedAttributes;
+namespace Bible.Domain.Entities.ExtendedAttributes;
 public class DocumentExtendedAttribute : AuditableEntityExtendedAttribute<int, int, Document>
 {
 }

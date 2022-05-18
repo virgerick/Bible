@@ -1,6 +1,6 @@
-﻿using Domain.Contracts;
+﻿using Bible.Domain.Contracts;
 
-namespace Domain.Entities.Misc;
+namespace Bible.Domain.Entities.Misc;
 
 public class DocumentType : AuditableEntity<int>
 {

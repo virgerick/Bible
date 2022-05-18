@@ -1,4 +1,4 @@
-﻿namespace Domain.Contracts;
+﻿namespace Bible.Domain.Contracts;
 public abstract class AuditableEntity<TId> : IAuditableEntity<TId>
 {
     public TId Id { get; set; }
